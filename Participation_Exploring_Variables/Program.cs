@@ -42,6 +42,46 @@
             Console.WriteLine("Boss's health: " + bossHealth);
             Console.WriteLine("Minion 1's health:" + minion1Health);
             Console.WriteLine("Minion 2's health:" + minion2Health);
+            Console.WriteLine();
+
+            //Time to Fight!!!
+            Console.WriteLine("The fight has begun!!!");
+            Console.WriteLine(villianName + " the " + villianTitle + " attacks " + heroFullName);
+            Console.WriteLine(villianName + " the " + villianTitle + " deals " + bossStrength + " damage with the freeze ray!");
+            heroHealth = heroHealth - bossStrength;
+            Console.WriteLine(heroFirstName + " now has " + heroHealth + " health!");
+            Console.WriteLine("The evil minion attack!");
+            Console.WriteLine(minion1Name + " deals " + minionStrength + " damage with the banana!");
+            heroHealth = heroHealth - minionStrength;
+            Console.WriteLine(heroFirstName + " now has " + heroHealth + " health!");
+            Console.WriteLine(minion2Name + " deals " + minionStrength + " damage with the banana!");
+            heroHealth = heroHealth - minionStrength;
+            Console.WriteLine(heroFirstName + " now has " + heroHealth + " health!");
+            Console.WriteLine();
+
+            //Hero fight
+            Console.WriteLine(heroFullName + " attacks each villian for " + heroStrength + " damage!");
+            bossHealth = bossHealth - heroStrength;
+            minion1Health = minion1Health - heroStrength;
+            minion2Health = minion2Health - heroStrength;
+            Console.WriteLine(villianName + " the " + villianTitle + " now has " + bossHealth + " health!");
+            Console.WriteLine(minion1Health + " the " + minionTitle + " now has " + minion1Health + " health!");
+            Console.WriteLine(minion2Health + " the " + minionTitle + " now has " + minion2Health + " health!");
+            Console.WriteLine(minion1Name + " and" + minion2Name + "has been defeated!");
+            Console.WriteLine();
+
+            //buff
+            Console.WriteLine(heroFirstName + " has " + heroHealth + " health!");
+            Console.WriteLine(heroFirstName + " eats a cupcake to restore health!");
+            heroHealth++;
+            Console.WriteLine(heroFirstName + " has " + heroHealth + " health!");
+            Console.WriteLine();
+
+            //Final fight
+            Console.WriteLine();
+
+
+
 
 
 
