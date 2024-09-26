@@ -78,7 +78,19 @@
             Console.WriteLine();
 
             //Final fight
-            Console.WriteLine();
+            Console.WriteLine("The Final Fight!");
+            Console.WriteLine("Hero's health: " + heroHealth);
+            Console.WriteLine("Boss's health: " + bossHealth);
+            Console.WriteLine(villianName + " the " + villianTitle + " attacks " + heroFullName);
+            Console.WriteLine(villianName + " the " + villianTitle + " deals " + bossStrength + " damage with the freeze ray!");
+            heroHealth = heroHealth - bossStrength;
+            Console.WriteLine(heroFullName + " attacks each villian for " + heroStrength + " damage!");
+            bossHealth = bossHealth - heroStrength;
+            Console.WriteLine(villianName + " the " + villianTitle + " now has " + bossHealth + " health!");
+            Console.WriteLine() ;
+
+            Console.WriteLine(heroFirstName + " is victorious!");
+            Console.WriteLine("Wealth, Glory, and straight A+'s to the winner!");
 
 
 
