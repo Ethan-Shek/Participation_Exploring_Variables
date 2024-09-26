@@ -6,10 +6,14 @@
         {
             string heroFirstName = "Ethan";
             string heroLastName = "Shek";
-            string heroFullName = heroFirstName + " " + heroLastName;
+            string heroFullName;
 
-            Console.WriteLine("Behold the glorious hero!");
-            Console.WriteLine(heroFullName);
+            heroFullName = heroFirstName + " " + heroLastName;
+
+            /*Console.WriteLine("Behold the glorious hero!");
+            Console.WriteLine(heroFullName);*/
+
+            Console.WriteLine("Behold the legendary hero of programming, whose name is: " + heroFullName);
         }
     }
 }
