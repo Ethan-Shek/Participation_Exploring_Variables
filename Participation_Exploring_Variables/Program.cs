@@ -92,12 +92,6 @@
             Console.WriteLine(heroFirstName + " is victorious!");
             Console.WriteLine("Wealth, Glory, and straight A+'s to the winner!");
 
-
-
-
-
-
-
         }
     }
 }
