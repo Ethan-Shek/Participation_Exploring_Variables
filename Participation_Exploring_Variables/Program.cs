@@ -13,6 +13,14 @@
             string minion1Name;
             string minion2Name;
 
+            int heroHealth = 100;
+            int heroStrength = 50;
+            int bossHealth = 100;
+            int bossStrength = 25;
+            int minion1Health = 50;
+            int minion2Health = 50;
+            int minionStrength = 5;
+
             heroFullName = heroFirstName + " " + heroLastName;
 
             /*Console.WriteLine("Behold the glorious hero!");
@@ -24,7 +32,19 @@
             minion1Name = "Bob";
             minion2Name = "Kevin";
 
-            Console.WriteLine(villianName +" the " + villianTitle + " is helped out by: " + minionTitle + " " + minion1Name + " and " + minionTitle + " " + minion2Name);
+            Console.WriteLine(heroFullName + "'s" + " arch rivial is " + villianName + " " + villianTitle);
+            Console.WriteLine(villianName + " the " + villianTitle + " is helped out by: " + minionTitle + " " + minion1Name + " and " + minionTitle + " " + minion2Name);
+            Console.WriteLine();
+
+            //prepared to fight?
+            Console.WriteLine("The fighters enter the room!");
+            Console.WriteLine("Hero's health: " + heroHealth);
+            Console.WriteLine("Boss's health: " + bossHealth);
+            Console.WriteLine("Minion 1's health:" + minion1Health);
+            Console.WriteLine("Minion 2's health:" + minion2Health);
+
+
+
 
         }
     }
